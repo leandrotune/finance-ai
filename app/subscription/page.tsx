@@ -1,5 +1,3 @@
-export const Subscription = () => {
-  return (
-    <div className=""></div>
-  )
-}
+export const SubscriptionPage = () => {
+  return <div className=""></div>;
+};
