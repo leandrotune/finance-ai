@@ -16,8 +16,10 @@ export const SummaryCard = ({
   size = "small",
 }: SummaryCardProps) => {
   return (
-    <div className="">
-      <Card className="rounded-[20px]">
+    <div>
+      <Card
+        className={`rounded-[20px] ${size === "large" ? "bg-white bg-opacity-5" : ""}`}
+      >
         <CardHeader className="flex-row items-center gap-2">
           {icon}
           <p
